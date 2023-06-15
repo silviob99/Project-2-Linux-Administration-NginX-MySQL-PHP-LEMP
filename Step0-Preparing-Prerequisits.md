@@ -9,4 +9,10 @@ to AWS free tier account and create a new EC2 instance of t2.nano family with Ub
 
 Download and install Git Bash like it is shown in [this video](https://www.youtube.com/watch?v=7BOrUHFu44A&ab_channel=HowTo).
 
+Launch Git Bash and run following command:  
+
+```ssh -i <Your-private-key.pem> ubuntu@<EC2-Public-IP-address>```  
+
+It will look like this:  
+
 
