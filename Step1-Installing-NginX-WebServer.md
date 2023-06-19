@@ -18,4 +18,6 @@ When prompted, enter **Y** to confirm that you want to install Nginx. Once insta
 
  If it is green and running then you did everything correctly - you have just launched your Web Server in the Cloud.  
 
- Before we can receive any traffice by our Web Server, we need to open **TCP port 80**   
+ Before we can receive any traffice by our Web Server, we need to open **TCP port 80** which is default port that web browsers use to access web pages in the Internet.
+
+
