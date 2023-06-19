@@ -15,4 +15,5 @@ Launch Git Bash and run following command:
 
 It will look like this:  
 
+<img width="960" alt="2023-06-19" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/bace21b9-bcfd-4e83-8bb9-9bf70fe4dc14">
 
