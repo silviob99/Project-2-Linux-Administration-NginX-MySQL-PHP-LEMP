@@ -20,4 +20,4 @@ When prompted, enter **Y** to confirm that you want to install Nginx. Once insta
 
  Before we can receive any traffice by our Web Server, we need to open **TCP port 80** which is default port that web browsers use to access web pages in the Internet.
 
-
+As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to EC2 configuration to open inbound connection through port 80. 
