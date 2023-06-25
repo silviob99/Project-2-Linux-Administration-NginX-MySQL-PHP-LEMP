@@ -85,6 +85,6 @@ Even though this might look like security concern at first, it makes database se
 
 For increased security, it's the best to have dedicated user accounts with less expansive privileges set up for every database, especially if you plan on having multiple databases hosted on your server.  
 
-For increased security, it's best to have dedicated user accounts with less expensive privileges set up for every database, especially if you plan on having multiple databases hosted on your server. 
-
 ```Note: At this time of writing, the native MySQL library mysqlnd doesn't support caching_sha2_password authentication method used by default in MySQL 8.0. To use this authentication method, you would need to use the MySQL native driver (mysqlnd) or update your application to a version that supports caching_sha2_password.```
+
+Your MySQL server is now installed and secured. Next, we will install PHP, the final component in the LEMP stack.
