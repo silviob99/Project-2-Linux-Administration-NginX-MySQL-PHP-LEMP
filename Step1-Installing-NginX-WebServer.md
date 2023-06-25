@@ -20,4 +20,35 @@ When prompted, enter **Y** to confirm that you want to install Nginx. Once insta
 
  Before we can receive any traffice by our Web Server, we need to open **TCP port 80** which is default port that web browsers use to access web pages in the Internet.
 
-As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to EC2 configuration to open inbound connection through port 80. 
+As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to EC2 configuration to open inbound connection through port 80.   
+
+
+
+https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/29c8cef3-a0a3-426b-ab6a-176e5ba3fbb8  
+
+Our server is running and we can access it locally and from the Internet (Source 0.0.0.0/0) means 'from any IP address').  
+
+first, let us try to check how we can access it locally in our Ubuntu shell, run:
+
+```
+$ curl http://localhost:80
+or
+$ curl http://127.0.0.1:80
+```
+We should get this screen: 
+
+<img width="960" alt="is-nginx-running-test" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/3d2805e8-e1eb-4034-ab50-cf13926cf5c7">
+
+These 2 commands above actually do pretty much the same - they use 'curl' command to request our Nginx on port 80 (you can even try to not specify any port - it will work anyway). The difference is that: in the first case we try to access our server via [DNS name](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/) and in the second one - by IP address (in this case IP address 127.0.0.1 corresponds to DNS name 'localhost' and the process of converting a DNS name to IP is called "resolution"). I will touch DNS in further lectures and projects.  
+
+As an output you can see some strangely formatted test, do not worry, we just made sure that our Nginx web service responds to 'curl' command with some payload.  
+
+Now it's time for us to test  how our Nginx server can respond to requests from the Internet. Open a web browser of your choice and try access following url  
+
+```http://<Public-IP-Address>:80```  
+
+Another way to retrieve your Public IP address, other than to check it in AWS Web console, is to use following command:  
+
+```curl -s http://169.254.169.254/latest/meta-data/public-ipv4```  
+
+
