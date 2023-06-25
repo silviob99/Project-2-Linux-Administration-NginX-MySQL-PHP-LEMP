@@ -83,4 +83,8 @@ mysql> exit
 Notice that you didn't need to provide a password to connect as the **root** user, even though you have defined one when running the ```mysql_secure_installation script```. This is because the default authentication method for the administrative MySQL user is ```unix socket``` instead of ```password```.  
 Even though this might look like security concern at first, it makes database server more secure because the only users allowed to log in as the **root** MySQL user are the system users with sudo privileges connecting from the console or through an application running with the same privileges. In practical terms, that means you won't be able to use administrative database root user to connect from your PHP application. Setting a password for the root MySQL account works as a safeguard, in case the default authentication method is changed from ```unix socket``` to ```password```.  
 
+For increased security, it's the best to have dedicated user accounts with less expansive privileges set up for every database, especially if you plan on having multiple databases hosted on your server.  
 
+For increased security, it's best to have dedicated user accounts with less expensive privileges set up for every database, especially if you plan on having multiple databases hosted on your server. 
+
+```Note: At this time of writing, the native MySQL library mysqlnd doesn't support caching_sha2_password authentication method used by default in MySQL 8.0. To use this authentication method, you would need to use the MySQL native driver (mysqlnd) or update your application to a version that supports caching_sha2_password.```
