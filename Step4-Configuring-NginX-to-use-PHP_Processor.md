@@ -33,5 +33,7 @@ server {
           try_files $url/ =404; 
 }
 
-location 
+location ~ /\.ht {
+      deny all;
+      }
 }
