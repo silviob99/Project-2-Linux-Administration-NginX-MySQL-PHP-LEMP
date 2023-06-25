@@ -71,7 +71,7 @@ $ sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
 This will tell Nginx to use the configuration next time it is reloaded. You can test your configuration for syntax errors by typing:  
 
 ```
-$ sudo nginx-t
+$ sudo nginx -t
 ```  
 You shall see following message:  
 
@@ -87,3 +87,4 @@ We also need to disable default Nginx host that is currently configured to liste
 ``` 
 sudo unlink /etc/nginx/sites-enabled/default
 ``` 
+
