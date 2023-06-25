@@ -38,3 +38,19 @@ HIGH    Length >= 8 numeruc, mixed case, special characters and dictionary file
 Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 ```
 
+Regardless of wheather you chose to set up the ```VALIDATE PASSWORD PLUGIN```, your server will next ask you to select and confirm a password for the MySQL **root** user. This is not to be confused with the **system root**. The **database root** user is an administrative user with full privileges over the database system. even though the default authentiction method for the MySQL root user dispenses the use of a password. **even when one is set**, you should define a strong password here as an additional   
+safety measure. I'll talk about this in a moment.  
+
+It you enabled password validation, you'll be shown the password strength for the root password you just entered and your server will ask if you want to continue with that password. If you are happy with your current password, enter Y for "yes" at the prompt:  
+
+```
+Estimated strength of the password: 100 
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : Y
+ ... Failed! Error: Your password does not satisfy the current policy requirements
+```
+
+For the rest of questions, press ```Y``` and hit the ```ENTER``` key to each prompt. This will remove some anonymous users and the test database, disable remote root logins, and load these new rules so that MySQL immediately respects the changes you have made.  
+
+When you're finished, test if you're able to log in to the MySQL console by typing:  
+
+```$ sudo mysql```  
