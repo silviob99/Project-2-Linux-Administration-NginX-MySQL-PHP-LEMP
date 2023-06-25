@@ -80,3 +80,7 @@ To exit the MySQL console, type:
 mysql> exit
 ```
 
+Notice that you didn't need to provide a password to connect as the **root** user, even though you have defined one when running the ```mysql_secure_installation script```. This is because the default authentication method for the administrative MySQL user is ```unix socket``` instead of ```password```.  
+Even though this might look like security concern at first, it makes database server more secure because the only users allowed to log in as the **root** MySQL user are the system users with sudo privileges connecting from the console or through an application running with the same privileges. In practical terms, that means you won't be able to use administrative database root user to connect from your PHP application. Setting a password for the root MySQL account works as a safeguard, in case the default authentication method is changed from ```unix socket``` to ```password```.  
+
+
