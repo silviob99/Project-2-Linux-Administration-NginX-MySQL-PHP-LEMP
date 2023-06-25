@@ -62,3 +62,8 @@ Here's what each of these directives and location blocks do:
 
 When you're done editing, save and close the file. If you're using ```nano```, you can do so by typing ```CTRL+X``` and then ```y``` and ```ENTER``` to confirm.  
 
+Activate your configuration by linking to the config file from Nginx's ```sites-enabled``` directory:  
+
+```
+$ sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+``` 
