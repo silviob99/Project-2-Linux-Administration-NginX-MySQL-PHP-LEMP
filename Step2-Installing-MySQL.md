@@ -53,4 +53,24 @@ For the rest of questions, press ```Y``` and hit the ```ENTER``` key to each pro
 
 When you're finished, test if you're able to log in to the MySQL console by typing:  
 
-```$ sudo mysql```  
+```
+$ sudo mysql
+```  
+
+This will connect to the MySQL server as the administrative database user **root**, which is inferred by the use of ```sudo``` when running this command. You should see output like this:  
+
+```
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.32 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+```  
