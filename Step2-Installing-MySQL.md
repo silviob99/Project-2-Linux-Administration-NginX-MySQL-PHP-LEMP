@@ -27,3 +27,14 @@ Press y|Y for Yes, any other key for No:
 ```  
 If you answer "yes", you'll be asked to select a level of password validation. Keep in mind that if you 
 enter **2** for the strongest level, you will receive errors when attempting to set any password, which does not contain numbers, upper and lowercase letters, and special characters, or which is based on common dictionary words. 
+
+```
+There are three levels of password validation policy:
+
+LOW     Length >= 8 
+MEDIUM  Length >= 8 numeric, mixed case, and special characters
+HIGH    Length >= 8 numeruc, mixed case, special characters and dictionary file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+```
+
