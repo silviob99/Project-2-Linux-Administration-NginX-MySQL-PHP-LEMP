@@ -51,4 +51,13 @@ Another way to retrieve your Public IP address, other than to check it in AWS We
 
 ```curl -s http://169.254.169.254/latest/meta-data/public-ipv4```  
 
+The URL in browser shall also work if you do not specify port number since all web browsers use port 80 by default.  
+
+If you see following page, then your web server is now correctly installed and accessible through your firewall.  
+
+<img width="434" alt="Nginx-welcome-page" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/252d72bf-de4f-4285-8894-860e2f0fba73">   
+
+In fact, it is the same content that you previously got by 'curl' command, but represented in nice HTML formatting by your web browser.  
+
+
 
