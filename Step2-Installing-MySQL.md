@@ -12,6 +12,18 @@ When installation is finsihed, it's recommended that you run a security script t
 
 ```$ sudo mysql_secure_installation```  
 
-This will ask if you want to configure the ```VALLIDATE PASSWORD PLUGIN```  
+This will ask if you want to configure the ```VALIDATE PASSWORD PLUGIN```  
 
+``` **Note:** Enabling this feature is something of a judgment call. If enabled, passwords which```
 
+Answer **Y** for yes, or anything else to continue without enabling.  
+
+```
+VALIDATE PASSWORD PLUGIN canbe used to test passwords
+and improve security. It checks the strength of password  
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+Press y|Y for Yes, any other key for No:
+```  
+If you answer "yes", you'll be asked to select a level of password validation. Keep in mind that if you 
+enter **2** for the strongest level, you will receive errors when attempting to set any password, which does not contain numbers, upper and lowercase letters, and special characters, or which is based on common dictionary words. 
