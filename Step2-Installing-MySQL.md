@@ -14,7 +14,7 @@ When installation is finsihed, it's recommended that you run a security script t
 
 This will ask if you want to configure the ```VALIDATE PASSWORD PLUGIN```  
 
-``` **Note:** Enabling this feature is something of a judgment call. If enabled, passwords which```
+``` **Note:** Enabling this feature is something of a judgment call. If enabled, passwords which are weak or easily guessable will be rejected. However, this may also increase the complexity for users when creating or changing their passwords.```
 
 Answer **Y** for yes, or anything else to continue without enabling.  
 
