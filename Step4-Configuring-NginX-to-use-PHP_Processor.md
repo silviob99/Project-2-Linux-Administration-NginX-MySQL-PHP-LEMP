@@ -17,3 +17,21 @@ Next, assing ownership of the directory with the $USER environment variable, whi
 $ sudo chown -R $USER:$USER /var/www/projectLEMP 
 ```
 
+This will create a new blank file. Paste in the following bare-bones configuration:  
+
+```
+#/etc/nginx/sites-available/projectLEMP
+
+server {
+      listen 80;
+      server_name projectLEMP www.projectLEMP;
+      root /var/www/projectLEMP;
+
+      index index.html index.htm index.php;
+
+      location / {
+          try_files $url/ =404; 
+}
+
+location 
+}
