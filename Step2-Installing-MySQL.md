@@ -46,7 +46,6 @@ It you enabled password validation, you'll be shown the password strength for th
 ```
 Estimated strength of the password: 100 
 Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : Y
- ... Failed! Error: Your password does not satisfy the current policy requirements
 ```
 
 For the rest of questions, press ```Y``` and hit the ```ENTER``` key to each prompt. This will remove some anonymous users and the test database, disable remote root logins, and load these new rules so that MySQL immediately respects the changes you have made.  
