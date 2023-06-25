@@ -43,6 +43,7 @@ location ~ /\.ht {
       deny all;
       }
 }
+```
 
 Here's what each of these directives and location blocks do:
 
