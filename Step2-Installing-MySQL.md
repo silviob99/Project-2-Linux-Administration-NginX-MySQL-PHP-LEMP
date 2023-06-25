@@ -12,4 +12,6 @@ When installation is finsihed, it's recommended that you run a security script t
 
 ```$ sudo mysql_secure_installation```  
 
-  
+This will ask if you want to configure the ```VALLIDATE PASSWORD PLUGIN```  
+
+
