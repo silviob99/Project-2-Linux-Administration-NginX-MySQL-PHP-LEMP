@@ -57,7 +57,7 @@ If you see following page, then your web server is now correctly installed and a
 
 <img width="434" alt="Nginx-welcome-page" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/252d72bf-de4f-4285-8894-860e2f0fba73">   
 
-In fact, it is the same content that you previously got by 'curl' command, but represented in nice HTML formatting by your web browser.  
+In fact, it is the same content that you previously got by 'curl' command, but represented in HTML formatting by your web browser.  
 
 
 
