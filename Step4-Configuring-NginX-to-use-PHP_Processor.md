@@ -17,6 +17,12 @@ Next, assing ownership of the directory with the $USER environment variable, whi
 $ sudo chown -R $USER:$USER /var/www/projectLEMP 
 ```
 
+Then, open a new configuration file in Nginx's ```sites-available``` directory using your preffered command-line editor. Here, we'll use ```nano```:
+
+```
+$ sudo nano /etc/nginx/sites-available/projectLEMP
+```
+
 This will create a new blank file. Paste in the following bare-bones configuration:  
 
 ```
@@ -37,3 +43,5 @@ location ~ /\.ht {
       deny all;
       }
 }
+
+
