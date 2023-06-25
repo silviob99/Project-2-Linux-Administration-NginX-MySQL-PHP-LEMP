@@ -80,3 +80,10 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```  
 
+If any errors aree reported, go back to your configuration file to review its contents before continuing.  
+
+We also need to disable default Nginx host that is currently configured to listen on port 80, for this run:  
+
+``` 
+sudo unlink /etc/nginx/sites-enabled/default
+``` 
