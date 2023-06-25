@@ -55,4 +55,5 @@ Here's what each of these directives and location blocks do:
 * ```location ~ \.php$``` -This location block handles the actual PHP processing by pointing Nginx to the fastcgi-php.conf configuration file and the ```php7.4-fpm.sock file```, which declares what socket is associated with ```php-fpm```.
 * ```location ~ /\.ht``` -The last location block deals with ```.htaccess``` files, which Nginx does not process. By adding the deny all directive, if any ```.htaccess``` files happen to find their way into the document root, they will not be served to visitors.
 
+When you're done editing, save and close the file. If you're using ```nano```, you can do so by typing ```CTRL+X``` and then ```y``` and ```ENTER``` to confirm.  
 
