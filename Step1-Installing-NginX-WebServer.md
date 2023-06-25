@@ -35,9 +35,9 @@ $ curl http://localhost:80
 or
 $ curl http://127.0.0.1:80
 ```
-We should get this screen: 
+We should get this screen:  
 
-<img width="960" alt="is-nginx-running-test" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/3d2805e8-e1eb-4034-ab50-cf13926cf5c7">  
+ <img width="960" alt="is-nginx-running-test" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/37f2e6fd-c421-489d-aaac-25da7fdffb7b">  
 
 These 2 commands above actually do pretty much the same - they use 'curl' command to request our Nginx on port 80 (you can even try to not specify any port - it will work anyway). The difference is that: in the first case we try to access our server via [DNS name](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/) and in the second one - by IP address (in this case IP address 127.0.0.1 corresponds to DNS name 'localhost' and the process of converting a DNS name to IP is called "resolution"). I will touch DNS in further lectures and projects.  
 
