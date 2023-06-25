@@ -44,4 +44,8 @@ location ~ /\.ht {
       }
 }
 
+Here's what each of these directives and location blocks do:
 
+* ```listen``` -Defines what port Nginx will listen on. In this case, it will listen on port 80, the default port for HTTP.
+* ```root``` -Defines the document root where the files served by this website are stored.
+* ```index``` -Defines in which order Nginx will prioritize index files for this website. It is a common practice to list ```index.html``` files      
