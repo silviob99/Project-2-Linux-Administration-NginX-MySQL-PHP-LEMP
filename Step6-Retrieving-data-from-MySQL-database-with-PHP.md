@@ -25,6 +25,8 @@ The following command creates a new user named ```example_user```, using mysql_n
 ```
 mysql> CREATE USER 'example user'0'%' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
+Now we need to give this user permission over the ```example_database``` database:  
+
 
 
 
