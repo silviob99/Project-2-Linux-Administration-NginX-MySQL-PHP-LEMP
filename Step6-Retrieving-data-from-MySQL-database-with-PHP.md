@@ -44,6 +44,15 @@ mysql> exit
 You can test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:  
 
 ```
+$ mysql -u example_user -p
+```
+
+Notice that the ```-p``` flag in this command, which will prompt you for the password used when creating the ```example_user``` user. After logging in to the MySQL console, confirm that you have access to the ```example_database``` database: 
+
+```
 mysql> SHOW DATABASES;
 ```
+This will give you the following output:  
+
+
 
