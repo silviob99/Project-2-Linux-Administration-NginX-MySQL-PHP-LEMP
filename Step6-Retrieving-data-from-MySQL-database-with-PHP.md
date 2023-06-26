@@ -40,5 +40,6 @@ Now exit the MySQL shell with:
 mysql> exit
 ```
 
-You can test if the new user has the proper permissions by logging in to the MySQL
+You can test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:  
+
 
