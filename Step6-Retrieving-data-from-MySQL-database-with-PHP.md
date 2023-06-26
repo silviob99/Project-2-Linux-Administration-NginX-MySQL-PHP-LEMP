@@ -12,5 +12,18 @@ First I will connect to the MySQL console using the **root** account:
 $ sudo mysql
 ```
 
+To create a new database, run the following command from your MySQL console:  
+
+```
+mysql> CREATE DATABASE 'example_database';
+```
+
+Now you can create a new user and grant him full privileges on the database you have just created.  
+
+The following command creates a new user named ```example_user```, using mysql_native_password as default authentication method. We're defining this user's password as ```password```, but you should replace this value with a secure password of your own choosing.  
+
+```
+mysql> CREATE USER 'example user'0'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
 
 
