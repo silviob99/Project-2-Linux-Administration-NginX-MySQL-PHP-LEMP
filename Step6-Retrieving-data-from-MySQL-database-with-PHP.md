@@ -43,4 +43,7 @@ mysql> exit
 
 You can test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:  
 
+```
+mysql> SHOW DATABASES;
+```
 
