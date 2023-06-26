@@ -112,4 +112,8 @@ If you see the text from '**echo**' command you wrote to index.html file, then i
 http://<Public-DNS-Name>:80  
 ```  
 
+You can leave this file in place as a temporary landing page for your application until you set up an ```index.php``` file to replace it. Once you do that, remember to remove or rename the ```index.html``` file from your document root, as it would take precedence over an ```index.html``` file by default.  
+
+My LEMP stack is now fully configured. In the next step, I'll create a PHP script to test that Nginx is in fact able to handle ```.php``` files within my newly configured website.  
+
 
