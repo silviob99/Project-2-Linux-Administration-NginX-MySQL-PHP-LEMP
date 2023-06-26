@@ -23,9 +23,11 @@ Now you can create a new user and grant him full privileges on the database you 
 The following command creates a new user named ```example_user```, using mysql_native_password as default authentication method. We're defining this user's password as ```password```, but you should replace this value with a secure password of your own choosing.  
 
 ```
-mysql> CREATE USER 'example user'0'%' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql> CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
 ```
-Now we need to give this user permission over the ```example_database``` database:  
+Now we need to give this user permission over the ```example_database``` database:    
+
 
 
 
