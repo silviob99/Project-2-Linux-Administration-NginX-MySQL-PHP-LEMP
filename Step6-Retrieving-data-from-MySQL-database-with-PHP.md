@@ -28,7 +28,17 @@ mysql> CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY '
 ```
 Now we need to give this user permission over the ```example_database``` database:    
 
+```
+mysql> GRANT ALL ON example_database. * TO 'example_user'0'%';  
+```
 
+This will give the **example_user** user full privileges over the **example_database** database, while preventing this user from creating or modifying other databases on your server.  
+
+Now exit the MySQL shell with:  
+
+```
+mysql> exit
+```
 
 
 
