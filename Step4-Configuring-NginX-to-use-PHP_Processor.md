@@ -87,4 +87,13 @@ We also need to disable default Nginx host that is currently configured to liste
 ``` 
 sudo unlink /etc/nginx/sites-enabled/default
 ``` 
+When you are ready, reload Nginx to apply the changes:  
 
+```
+$ sudo systemctl reload nginx
+```  
+
+Your new website is now active, but the web root /var/www/projectLEMP is still empty. Create an index.html file in that location so that we can test that your new server block works as expected:  
+
+``` 
+sudo echo 'Hello LEMP from hostname' 
