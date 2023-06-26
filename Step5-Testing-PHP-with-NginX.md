@@ -25,4 +25,12 @@ I can now access this page in my web browser by visiting the domain name or publ
 
 <img width="570" alt="PHP-frontpage" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/1c32a4a8-816d-4260-a2b7-c8078441724e">
 
+After checking the relevant information about your PHP server through that page, it's best to remove the file you created as it contains sensitive information about your PHP environment and your Ubuntu server. You can use ```rm``` to remove that file:  
+
+```
+$ sudo rm /var/www/your_domain/info.php
+```
+
+You can always regenerate this file if you need it later.  
+
 
