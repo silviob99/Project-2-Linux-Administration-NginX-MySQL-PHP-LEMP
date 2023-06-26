@@ -21,7 +21,7 @@ information about my server:
 phpinfo();
 ```
 
-I can now access this page in my web browser by visiting the domain name or public IP address that I have set up in my Nginx configuration file, followed by ```/info/php:```  
+I can now access this page in my web browser by visiting the domain name or public IP address that I have set up in my Nginx configuration file, followed by ```/info.php:```  
 
 
 
