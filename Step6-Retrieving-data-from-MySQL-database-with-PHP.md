@@ -15,7 +15,7 @@ $ sudo mysql
 To create a new database, run the following command from your MySQL console:  
 
 ```
-mysql> CREATE DATABASE 'example_database';
+mysql> CREATE DATABASE `example_database`;
 ```
 
 Now you can create a new user and grant him full privileges on the database you have just created.  
