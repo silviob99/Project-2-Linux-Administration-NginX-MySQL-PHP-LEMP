@@ -23,5 +23,6 @@ phpinfo();
 
 I can now access this page in my web browser by visiting the domain name or public IP address that I have set up in my Nginx configuration file, followed by ```/info.php:```  
 
+<img width="570" alt="PHP-frontpage" src="https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/1c32a4a8-816d-4260-a2b7-c8078441724e">
 
 
