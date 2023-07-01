@@ -23,16 +23,11 @@ Before starting the installation process, ensure that you have the following pre
 ### Installation
 To install and set up the LEMP stack on Ubuntu 20.04, follow these steps:
 
-Step 0: Preparing Prerequisites ](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step0-Preparing-Prerequisits.md)
+Step 0: [Preparing Prerequisites](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step0-Preparing-Prerequisits.md)
 - Create an AWS account if you don't have one.
 - Launch an EC2 instance of the t2.nano family with Ubuntu Server 20.04 LTS (HVM) image.
 
-
-Step 0: Preparing Prerequisites
-- Create an AWS account if you don't have one.
-- Launch an EC2 instance of the t2.nano family with Ubuntu Server 20.04 LTS (HVM) image.
-
-Step 1: Installing Nginx Web Server
+Step 1: [Installing Nginx Web Server](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step1-Installing-NginX-WebServer.md)
 - Install Git Bash.
 - Launch Git Bash and run the following command to connect to your EC2 instance: `ssh -i <Your-private-key.pem> ubuntu@<EC2-Public-IP-address>`.
 - Install Nginx using the apt package manager.
