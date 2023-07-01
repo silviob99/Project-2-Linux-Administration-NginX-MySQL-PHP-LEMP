@@ -33,7 +33,7 @@ Step 1: [Installing Nginx Web Server](https://github.com/silviob99/Project-2-Lin
 - Install Nginx using the apt package manager.
 - Verify that Nginx is running by checking its status.
 
-Step 2: Installing MySQL
+Step 2: [Installing MySQL](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step2-Installing-MySQL.md)
 - Install MySQL using the apt package manager.
 - Run the MySQL security script to secure your MySQL installation.
 - Test if you can log in to the MySQL console.
