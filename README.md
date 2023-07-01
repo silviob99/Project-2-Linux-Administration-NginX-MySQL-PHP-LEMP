@@ -58,10 +58,10 @@ Once the LEMP stack is set up, you can use it to host and run web applications. 
 
 ### Steps
 
-- Step 0: [Preparing Prerequisites]
-- Step 1: [Installing Nginx Web Server]
-- Step 2: [Installing MySQL]
-- Step 3: [Installing PHP]
-- Step 4: [Configuring Nginx to Use PHP Processor]
-- Step 5: [Testing PHP with Nginx]
-- Step 6: [Retrieving Data from MySQL Database with PHP]
+- Step 0: [Preparing Prerequisites](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step0-Preparing-Prerequisits.md)
+- Step 1: [Installing Nginx Web Server](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step2-Installing-MySQL.md)
+- Step 2: [Installing MySQL](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step2-Installing-MySQL.md)
+- Step 3: [Installing PHP](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step3-Installing-PHP.md)
+- Step 4: [Configuring Nginx to Use PHP Processor](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step4-Configuring-NginX-to-use-PHP_Processor.md)
+- Step 5: [Testing PHP with Nginx](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step5-Testing-PHP-with-NginX.md)
+- Step 6: [Retrieving Data from MySQL Database with PHP](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/blob/main/Step6-Retrieving-data-from-MySQL-database-with-PHP.md)
