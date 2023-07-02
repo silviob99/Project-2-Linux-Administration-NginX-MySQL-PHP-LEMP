@@ -24,8 +24,8 @@ When prompted, enter **Y** to confirm that you want to install Nginx. Once insta
 As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to EC2 configuration to open inbound connection through port 80.   
 
 
+https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/d2686901-648a-42bd-af07-0b6ed72e6164
 
-https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/29c8cef3-a0a3-426b-ab6a-176e5ba3fbb8  
 
 Our server is running and we can access it locally and from the Internet (Source 0.0.0.0/0) means 'from any IP address').  
 
