@@ -1,4 +1,5 @@
-![LEMP Stack](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/01f8a2b1-844f-42ec-9d0e-dec7854aae96)
+![LEMP Stack](https://github.com/silviob99/Project-2-Linux-Administration-NginX-MySQL-PHP-LEMP/assets/107585020/56ebde15-cec8-455f-a80b-d8cb09c4c641)
+
 
 In order to display web pages to our site visitors, we are going to employ Nginx, a high-performance web server. We'll use the **apt** package.  
 
