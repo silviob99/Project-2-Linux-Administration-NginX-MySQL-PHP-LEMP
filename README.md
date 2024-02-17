@@ -13,7 +13,6 @@ This project provides a step-by-step guide on setting up a LEMP (Linux, Nginx, M
 - Steps
 
 ### Project overview  
-Project Overview
 Project-2: Web Stack Implementation (LEMP) is a tutorial-based project that guides users through the process of setting up a LEMP (Linux, Nginx, MySQL, PHP) web stack on Ubuntu 20.04. This project aims to provide a step-by-step guide for beginners to learn how to install and configure the essential components of a web server.
 
 ### Prerequisites
